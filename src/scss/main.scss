@@ -1,0 +1,38 @@
+/*******
+****** MAIN SCSSS
+****/
+// fontawesome
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+
+@import "~@fortawesome/fontawesome-free/scss/regular";
+
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
+
+
+/* Variables */
+
+@import "../partials/_variable.scss";
+
+/* commons */
+
+@import "../partials/_commons.scss";
+
+/* utilities */
+
+@import "../partials/_utility.scss";
+
+/* header */
+
+@import "../partials/_header.scss";
+
+/* main */
+
+@import "../partials/_main.scss";
+
+/* footer */
+
+@import "../partials/_footer.scss";
+
+
