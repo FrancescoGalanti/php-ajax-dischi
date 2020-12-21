@@ -7,11 +7,11 @@
     
 
     //ternary function that determines if the author query is empty
-    $artist = empty($_GET["artist"]) ? false : $GET["artist"];
+    $artist = empty($_GET["artist"]) ? false : $_GET["artist"];
     //filtered album
     $albums = [];
     // default setting that return all the element inside the arry
-    if($artist == false || $artist = "all"){
+    if($artist == false || $artist == "all"){
         $albums = $database;
     }else{
         // iteration of the array in order to get the element inside of it
